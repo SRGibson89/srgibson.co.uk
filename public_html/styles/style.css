@@ -1,0 +1,131 @@
+#maincontainer,p,a,img{
+    margin:0px;
+    color: #f9fbff;
+    font-family: Georgia;
+
+    
+    
+}
+@media screen and (min-width: 900px){
+	#maincontainer{
+		width:100%;
+        background-color: rgb(96, 146, 141);
+        margin: 0px;
+	}
+	
+
+
+}
+
+
+@media screen and (max-width: 900px){
+    #maincontainer{
+                
+        width:100%;
+        background-color: rgb(96, 146, 141);
+        margin: 0px;
+        }
+   
+    
+
+}
+
+@media screen and (max-width: 500px){
+	 #maincontainer{
+                
+         width:100%;
+         background-color: rgb(96, 146, 141);
+         margin: 0px;
+        }
+	
+    
+
+}
+body{
+    margin:0px;
+}
+
+#navbar{
+
+    display: block;
+    float:top;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3ex;
+    background-color: rgba(255, 238, 226,0.5);
+    position: fixed;
+    width:100%;
+    height:auto;
+    
+    
+}
+#links li{
+    list-style: none;
+    display:inline;
+}
+#main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    border-top:2ex solid white;
+    border-bottom: 6ex solid white;
+    border-right: 2ex solid white;
+    border-left: 2ex solid white;
+        
+}
+#mainimage{
+    width:100%;
+    height:auto;
+    background-color: white;
+    vertical-align: bottom;
+   
+}
+.info{
+    background-color: white;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    width:100%;
+    height:105%;
+
+}
+#about{
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 115%;
+}
+#details{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    text-align: left;
+    }
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 110%;
+    font-family: 'Lato',sans-serif;
+}
+    #MyPic{
+    
+    width:100%;
+    height:auto;
+    
+    background-color: none;
+    vertical-align: bottom;
+}
+#myphotome
+{
+    border:solid white 5px;
+    border-radius: 45px;
+}
